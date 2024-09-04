@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task8-television", "task8-television.csproj", "{A78C11DD-9875-44D3-B95C-B39AA0D8563B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A78C11DD-9875-44D3-B95C-B39AA0D8563B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78C11DD-9875-44D3-B95C-B39AA0D8563B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78C11DD-9875-44D3-B95C-B39AA0D8563B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78C11DD-9875-44D3-B95C-B39AA0D8563B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD1241A-571E-4B0D-B352-68AC452D52A9}
+	EndGlobalSection
+EndGlobal
