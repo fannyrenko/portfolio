@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import portfolioPic from './img/pic.png';
+import skillcollectorPic from './img/skillcollector_screenshot.png';
+import snakegamePic from './img/snakegame.png';
+import portfoliopagePic from './img/portfoliopage.png';
+import arkadicsPic from './img/arkadics.png'
+import ergobrassPic from './img/ergobrass.png'
 import './App.css';
 
 export default function App() {
-
   const [navBackground, setNavBackground] = useState(false);
 
   const handleScroll = () => {
-    const show = window.scrollY > 780; // Adjust the scroll value as needed
+    const show = window.scrollY > 780;
     setNavBackground(show);
   };
 
@@ -19,18 +23,61 @@ export default function App() {
   }, []);
 
   const navClass = navBackground
-    ? 'backdrop-blur-sm bg-white/30' // Background color with blur
-    : 'bg-transparent'; // Transparent background before scrolling
-
-
+    ? 'backdrop-blur-sm bg-white/30'
+    : 'bg-transparent';
 
   const projects = [
-    { id: 1, title: 'Project 1', category: 'Frontend', description: 'A frontend project.', image: 'https://via.placeholder.com/300' },
-    { id: 2, title: 'Project 2', category: 'Backend', description: 'A backend project.', image: 'https://via.placeholder.com/300' },
-    { id: 3, title: 'Project 3', category: 'Frontend', description: 'Another frontend project.', image: 'https://via.placeholder.com/300' },
-    { id: 4, title: 'Project 4', category: 'UX Design', description: 'A design project.', image: 'https://via.placeholder.com/300' },
-    { id: 5, title: 'Project 5', category: 'Reinforced learning', description: 'Snake Game', image: 'https://via.placeholder.com/300' },
-    // Add more projects as needed
+    { id: 1, 
+      title: 'Skill Collector', 
+      category: 'UX Design', 
+      description: 'UX Design for a Skill Collector App', 
+      image: skillcollectorPic , 
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/projects/python-projects/RL-snake-game' 
+    },
+    { id: 2, 
+      title: 'Portfolio 2024', 
+      category: 'Frontend', 
+      description: 'Portfolio page made using React and Tailwind CSS', 
+      image: portfoliopagePic,
+      link: '',
+    },
+    { id: 3, 
+      title: 'Portfolio 2023', 
+      category: 'Frontend', 
+      description: 'Portfolio page made using React and Tailwind CSS', 
+      image: portfoliopagePic,
+      link: '',
+    },
+    { id: 4, 
+      title: 'Arkadics Website', 
+      category: 'Frontend', 
+      description: 'Wordpress Website for Arkadics Oy', 
+      image: arkadicsPic,
+      link: 'https://www.arkadics.com/',
+
+    },
+    { id: 5, 
+      title: 'Plant It', 
+      category: 'Application Development', 
+      description: 'Application for tracking watering and fertilizing of house plants', 
+      image: 'https://via.placeholder.com/300' 
+    },
+    { id: 6, 
+      title: 'Snake Game', 
+      category: 'Reinforced learning', 
+      description: 'Snake Game', 
+      image: snakegamePic,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/projects/python-projects/RL-snake-game' 
+    
+    },
+    { id: 7, 
+      title: 'ErgoBrass Website', 
+      category: 'Frontend', 
+      description: 'Wordpress Website for ErgoBrass Oy', 
+      image: ergobrassPic,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/projects/python-projects/RL-snake-game' 
+    
+    },
   ];
 
   const [selectedCategory, setSelectedCategory] = useState('');
@@ -84,7 +131,11 @@ export default function App() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" className="w-24 h-24 mx-auto" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" alt="Blender" className="w-24 h-24 mx-auto" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" alt="Android" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original.svg" alt="Android" className="w-24 h-24 mx-auto" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original.svg" alt="Vite" className="w-24 h-24 mx-auto" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" alt="Wordpress" className="w-24 h-24 mx-auto" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" alt="HTML" className="w-24 h-24 mx-auto" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" alt="C++" className="w-24 h-24 mx-auto" />
+
         </div>
       </section>
       
@@ -92,21 +143,11 @@ export default function App() {
       <section id="projects" className="w-full px-8 py-12 pt-20 pb-20">
         <h1 className="text-4xl font-extrabold text-center text-white mb-12">Projects</h1>
         <div className="mb-8 text-center">
-          <button onClick={() => handleCategoryClick('Frontend')} className="bg-[#fc7445] text-white px-4 py-2 rounded-lg m-2 hover:bg-[#fc734589]">
-            Frontend
-          </button>
-          <button onClick={() => handleCategoryClick('Backend')} className="bg-[#8d40c8] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#9d5dce65]">
-            Backend
-          </button>
-          <button onClick={() => handleCategoryClick('UX Design')} className="bg-[#e64e9c] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e64e9d8e]">
-            UX Design
-          </button>
-          <button onClick={() => handleCategoryClick('Reinforced learning')} className="bg-[#e5961b] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e5981b9e]">
-            Reinforced learning
-          </button>
-          <button onClick={() => handleCategoryClick('')} className="bg-[#e5961b] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e5981b9e]">
-            All
-          </button>
+          <button onClick={() => handleCategoryClick('Frontend')} className="bg-[#fc7445] text-white px-4 py-2 rounded-lg m-2 hover:bg-[#fc734589]">Frontend</button>
+          <button onClick={() => handleCategoryClick('Application Development')} className="bg-[#8d40c8] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#9d5dce65]">Application Development</button>
+          <button onClick={() => handleCategoryClick('UX Design')} className="bg-[#e64e9c] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e64e9d8e]">UX Design</button>
+          <button onClick={() => handleCategoryClick('Reinforced learning')} className="bg-[#e5961b] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e5981b9e]">Reinforced learning</button>
+          <button onClick={() => handleCategoryClick('')} className="bg-[#25257e] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#3131e485]">All</button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {projects
@@ -118,19 +159,14 @@ export default function App() {
                   <h2 className="text-2xl font-bold mb-4">{project.title}</h2>
                   <p className="text-white mb-4">{project.description}</p>
                   <div className="flex space-x-4">
-                    <a href="https://github.com/fannyrenko/portfolio/" className="bg-gray-800 text-white px-4 py-2 rounded-lg text-center hover:bg-gray-700">
-                      GitLab Code
-                    </a>
-                    <a href="#" className="bg-blue-500 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-400">
-                      Project Page
-                    </a>
+                    <a href={project.link} target='_blank' rel='noreferrer' className="bg-gray-800 text-white px-4 py-2 rounded-lg text-center hover:bg-gray-700">Project Page</a>
                   </div>
                 </div>
               </div>
-            ))
-          }
+            ))}
         </div>
       </section>
+
 
       {/* Contact */}
       <section id="contact" className="w-full bg-white/30 backdrop-blur-sm pt-20 pb-10 mb-20 relative text-white">
