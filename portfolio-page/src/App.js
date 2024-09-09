@@ -118,7 +118,7 @@ export default function App() {
                   <h2 className="text-2xl font-bold mb-4">{project.title}</h2>
                   <p className="text-white mb-4">{project.description}</p>
                   <div className="flex space-x-4">
-                    <a href="#" className="bg-gray-800 text-white px-4 py-2 rounded-lg text-center hover:bg-gray-700">
+                    <a href="https://github.com/fannyrenko/portfolio/" className="bg-gray-800 text-white px-4 py-2 rounded-lg text-center hover:bg-gray-700">
                       GitLab Code
                     </a>
                     <a href="#" className="bg-blue-500 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-400">
