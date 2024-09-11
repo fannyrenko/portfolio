@@ -6,7 +6,7 @@ import portfoliopagePic from './img/portfoliopage.png';
 import arkadicsPic from './img/arkadics.png'
 import ergobrassPic from './img/ergobrass.png'
 import portfolio2023Pic from './img/portfolio2023.png'
-import plantpalPic from '.img/plantit.png'
+import plantpalPic from './img/plantit.png'
 import './App.css';
 
 export default function App() {
@@ -34,7 +34,7 @@ export default function App() {
       category: 'UX Design', 
       description: 'UX Design for a Skill Collector App', 
       image: skillcollectorPic , 
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/projects/python-projects/RL-snake-game' 
+      link: 'https://portfolio-fannyrenko-82531f7557548b8f7029c978980a4faa1466e7e617.gitlab.io/dist/skill_collector.html' 
     },
     { id: 2, 
       title: 'Portfolio 2024', 
