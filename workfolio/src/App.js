@@ -75,7 +75,7 @@ export default function App() {
       category: 'Frontend', 
       description: 'Wordpress Website for ErgoBrass Oy', 
       image: ergobrassPic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/projects/python-projects/RL-snake-game' 
+      link: 'https://www.ergobrass.com/' 
     
     },
   ];
