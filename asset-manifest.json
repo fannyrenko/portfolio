@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4bee5ffe.css",
-    "main.js": "/portfolio/static/js/main.8b7d8d03.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "main.css": "/portfolio/static/css/main.582f8858.css",
+    "main.js": "/portfolio/static/js/main.d669df36.js",
+    "static/js/453.e7a0d0f4.chunk.js": "/portfolio/static/js/453.e7a0d0f4.chunk.js",
     "static/media/pic.png": "/portfolio/static/media/pic.f744fb3242cdc7df8235.png",
     "static/media/portfoliopage.png": "/portfolio/static/media/portfoliopage.93d3bfcd690751d7a279.png",
     "static/media/skillcollector_screenshot.png": "/portfolio/static/media/skillcollector_screenshot.15df8c7c28dc27308ee1.png",
@@ -10,12 +10,12 @@
     "static/media/snakegame.png": "/portfolio/static/media/snakegame.904e2dc54f51a99bb9cc.png",
     "static/media/ergobrass.png": "/portfolio/static/media/ergobrass.55be1e2a39a4bfd3ae7b.png",
     "index.html": "/portfolio/index.html",
-    "main.4bee5ffe.css.map": "/portfolio/static/css/main.4bee5ffe.css.map",
-    "main.8b7d8d03.js.map": "/portfolio/static/js/main.8b7d8d03.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.582f8858.css.map": "/portfolio/static/css/main.582f8858.css.map",
+    "main.d669df36.js.map": "/portfolio/static/js/main.d669df36.js.map",
+    "453.e7a0d0f4.chunk.js.map": "/portfolio/static/js/453.e7a0d0f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bee5ffe.css",
-    "static/js/main.8b7d8d03.js"
+    "static/css/main.582f8858.css",
+    "static/js/main.d669df36.js"
   ]
 }
