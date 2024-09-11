@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task9-vehicle", "task9-vehicle.csproj", "{1CC9238D-D89E-4BD0-97AD-0CDBD273D45F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CC9238D-D89E-4BD0-97AD-0CDBD273D45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC9238D-D89E-4BD0-97AD-0CDBD273D45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC9238D-D89E-4BD0-97AD-0CDBD273D45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC9238D-D89E-4BD0-97AD-0CDBD273D45F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA218617-3E8E-4858-9115-05958F9DC1DC}
+	EndGlobalSection
+EndGlobal
