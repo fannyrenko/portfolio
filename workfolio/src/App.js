@@ -60,7 +60,7 @@ export default function App() {
     { id: 5, 
       title: 'Plant It', 
       category: 'Application Development', 
-      description: 'Application for tracking watering and fertilizing of house plants', 
+      description: 'Application for tracking watering and fertilizing of house plants - Coming Soon', 
       image: 'https://via.placeholder.com/300' 
     },
     { id: 6, 
@@ -68,7 +68,7 @@ export default function App() {
       category: 'Reinforced learning', 
       description: 'Snake Game', 
       image: snakegamePic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/projects/python-projects/RL-snake-game' 
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/python/RL-snake-game' 
     
     },
     { id: 7, 
