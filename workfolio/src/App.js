@@ -5,6 +5,7 @@ import snakegamePic from './img/snakegame.png';
 import portfoliopagePic from './img/portfoliopage.png';
 import arkadicsPic from './img/arkadics.png'
 import ergobrassPic from './img/ergobrass.png'
+import portfolio2023Pic from './img/portfolio2023.png'
 import './App.css';
 
 export default function App() {
@@ -45,8 +46,8 @@ export default function App() {
       title: 'Portfolio 2023', 
       category: 'Frontend', 
       description: 'Portfolio page made using React and Tailwind CSS', 
-      image: portfoliopagePic,
-      link: '',
+      image: portfolio2023Pic,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/frontend/portfolio2023',
     }, 
     { id: 4, 
       title: 'Arkadics Website', 
