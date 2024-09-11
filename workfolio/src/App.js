@@ -6,6 +6,7 @@ import portfoliopagePic from './img/portfoliopage.png';
 import arkadicsPic from './img/arkadics.png'
 import ergobrassPic from './img/ergobrass.png'
 import portfolio2023Pic from './img/portfolio2023.png'
+import plantpalPic from '.img/plantit.png'
 import './App.css';
 
 export default function App() {
@@ -58,10 +59,11 @@ export default function App() {
 
     },
     { id: 5, 
-      title: 'Plant It', 
+      title: 'Plant Pal', 
       category: 'Application Development', 
       description: 'Application for tracking watering and fertilizing of house plants - Coming Soon', 
-      image: 'https://via.placeholder.com/300' 
+      image: plantpalPic,
+      link: 'https://github.com/fannyrenko/plantpal',
     },
     { id: 6, 
       title: 'Snake Game', 
@@ -187,7 +189,6 @@ export default function App() {
             <a href="https://github.com/fannyrenko/portfolio" target="_blank" rel="noopener noreferrer" className="hover-link">
               <i className="devicon-github-original"></i>
             </a>
-            {/* Add more icons if needed */}
           </div>
           </div>
         </div>
