@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body {
-  background-image: linear-gradient(to left bottom, #e5961b, #fc7445, #fd5770, #e64e9c, #b55ac1, #9d5dce, #7c62d9, #4b67e3, #5f61eb, #7559f0, #8c4df3, #a43cf4);
+  background-image: linear-gradient(to bottom right, #e5961b, #fc7445, #fd5770, #e64e9c, #b55ac1, #9d5dce, #7c62d9, #4b67e3, #5f61eb, #7559f0, #8c4df3, #a43cf4);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat ;

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import portfolioPic from './img/pic.png';
+import portfolioPic from './img/portfolio-pic.png';
 import skillcollectorPic from './img/skillcollector_screenshot.png';
 import snakegamePic from './img/snakegame.png';
 import portfoliopagePic from './img/portfoliopage.png';
 import arkadicsPic from './img/arkadics.png'
 import ergobrassPic from './img/ergobrass.png'
 import portfolio2023Pic from './img/portfolio2023.png'
-import plantpalPic from './img/plantit.png'
+import plantpalPic from './img/plant-pal.png'
 import './App.css';
 
 export default function App() {
@@ -103,7 +103,7 @@ export default function App() {
       <div className="container mx-auto flex items-center justify-center h-screen p-5">
         <div>
           <h1 className='text-white'>Hello, I'm Fanny Renko</h1>
-          <p className='text-lg'>ICT engineer and designer</p>
+          <p className='text-lg'>ICT ENGINEER AND DESIGNER</p>
         </div>
       </div >
       
@@ -116,32 +116,182 @@ export default function App() {
               As a fourth-year ICT Engineering student with a Bachelor's degree in Design, I am deeply passionate about the intersection of technology and human experience. My focus is on developing innovative programs and applications that are intuitive, user-friendly, and designed to improve people's lives. I have a strong interest in emerging technologies, particularly in artificial intelligence and reinforcement learning, and I am eager to explore their potential to create meaningful, positive change.
             </p>
           </div>
-          <div className="flex-1 flex items-center justify-center">
-            <img src={portfolioPic} alt="portfolio pic" className="w-full h-auto max-w-sm pb-5" />
+          <div className="flex-2 flex flex-col justify-center mb-8 ml-5">
+            <img src={portfolioPic} alt="portfolio pic" className="w-full h-auto max-w-sm rounded-full border-solid border-4 border-indigo-500/50" />
           </div>
         </div>
       </section>
 
       {/* Skills */}
-      <section id="skills" className="h-screen px-8 py-12 pt-20 pb-20 mt-20">
-        <h1 className="text-4xl font-extrabold text-center text-white mb-40">Skill Stack</h1>
-        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="React" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" alt="Blender" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" alt="Android" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original.svg" alt="Vite" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" alt="Wordpress" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" alt="HTML" className="w-24 h-24 mx-auto" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" alt="C++" className="w-24 h-24 mx-auto" />
+      <section id="skills" className="min-h-screen px-8 py-12 pt-20 pb-20 mt-20">
+        <h1 className="text-4xl font-extrabold text-center text-white mb-8">Skill Stack</h1>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-12">
+          {/* Example Icon Container */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+              alt="Python"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          {/* Repeat the above structure for each icon */}
+          
+          {/* React */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+              alt="React"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Tailwind CSS */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" 
+              alt="Tailwind CSS"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* C# */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
+              alt="C#"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Figma */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" 
+              alt="Figma"  
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Node.js */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" 
+              alt="Node.js"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Blender */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" 
+              alt="Blender"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Vite */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original-wordmark.svg"
+              alt="Vite"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Android */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" 
+              alt="Android"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* WordPress */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain-wordmark.svg" 
+              alt="Wordpress"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* HTML */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg"
+              alt="HTML"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* C++ */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" 
+              alt="C++"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Git */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" 
+              alt="Git"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* GitHub */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+              alt="Github"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* CSS3 */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" 
+              alt="CSS3"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+          
+          {/* Sass */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" 
+              alt="Sass"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
 
+          {/* Scikit learn */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+              alt="Scikit learn"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>
+
+          {/* Photoshop */}
+          <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+              alt="Photoshop"
+              className="w-3/4 h-3/4 object-contain"
+            />
+          </div>                      
         </div>
       </section>
-      
+
+
       {/* Projects */}
       <section id="projects" className="w-full px-8 py-12 pt-20 pb-20">
         <h1 className="text-4xl font-extrabold text-center text-white mb-12">Projects</h1>
