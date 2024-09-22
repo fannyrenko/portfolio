@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.582f8858.css",
-    "main.js": "/portfolio/static/js/main.ddf64c8e.js",
+    "main.css": "/portfolio/static/css/main.ed58fc3b.css",
+    "main.js": "/portfolio/static/js/main.667e3411.js",
     "static/js/453.e7a0d0f4.chunk.js": "/portfolio/static/js/453.e7a0d0f4.chunk.js",
-    "static/media/pic.png": "/portfolio/static/media/pic.f744fb3242cdc7df8235.png",
-    "static/media/plantit.png": "/portfolio/static/media/plantit.52fad91d45c9f25a68e5.png",
+    "static/media/portfolio-pic.png": "/portfolio/static/media/portfolio-pic.f744fb3242cdc7df8235.png",
     "static/media/portfolio2023.png": "/portfolio/static/media/portfolio2023.e4a68f28fbc6eb83df0e.png",
     "static/media/portfoliopage.png": "/portfolio/static/media/portfoliopage.93d3bfcd690751d7a279.png",
+    "static/media/plant-pal.png": "/portfolio/static/media/plant-pal.754df65be39845a8d4d4.png",
     "static/media/skillcollector_screenshot.png": "/portfolio/static/media/skillcollector_screenshot.15df8c7c28dc27308ee1.png",
     "static/media/arkadics.png": "/portfolio/static/media/arkadics.582f8fc581e16ac1fbb7.png",
     "static/media/snakegame.png": "/portfolio/static/media/snakegame.904e2dc54f51a99bb9cc.png",
     "static/media/ergobrass.png": "/portfolio/static/media/ergobrass.55be1e2a39a4bfd3ae7b.png",
     "index.html": "/portfolio/index.html",
-    "main.582f8858.css.map": "/portfolio/static/css/main.582f8858.css.map",
-    "main.ddf64c8e.js.map": "/portfolio/static/js/main.ddf64c8e.js.map",
+    "main.ed58fc3b.css.map": "/portfolio/static/css/main.ed58fc3b.css.map",
+    "main.667e3411.js.map": "/portfolio/static/js/main.667e3411.js.map",
     "453.e7a0d0f4.chunk.js.map": "/portfolio/static/js/453.e7a0d0f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.582f8858.css",
-    "static/js/main.ddf64c8e.js"
+    "static/css/main.ed58fc3b.css",
+    "static/js/main.667e3411.js"
   ]
 }
