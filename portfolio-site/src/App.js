@@ -6,7 +6,7 @@ import portfoliopagePic from './img/portfoliopage.png';
 import arkadicsPic from './img/arkadics.png'
 import ergobrassPic from './img/ergobrass.png'
 import portfolio2023Pic from './img/portfolio2023.png'
-import plantpalPic from './img/plant-pal.png'
+import plantpalPic from './img/plantpal.png'
 import './App.css';
 
 export default function App() {
@@ -43,13 +43,7 @@ export default function App() {
       image: portfoliopagePic,
       link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-site',
     },
-    { id: 3, 
-      title: 'Portfolio 2023', 
-      category: 'Frontend', 
-      description: 'Portfolio page made using React and Tailwind CSS', 
-      image: portfolio2023Pic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/frontend/portfolio2023',
-    }, 
+ 
     { id: 4, 
       title: 'Arkadics Website', 
       category: 'Frontend', 
@@ -70,7 +64,7 @@ export default function App() {
       category: 'AI', 
       description: 'Snake Game', 
       image: snakegamePic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/python/RL-snake-game' 
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/RL-snake-game' 
     
     },
     { id: 7, 
@@ -85,9 +79,17 @@ export default function App() {
       title: 'NLP-processor', 
       category: 'AI', 
       description: 'Text classifier build using deep learning algoritms and metods', 
-      image: ergobrassPic,
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+    ,
       link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/DA-AI/NLP-project' 
     
+    },
+    { id: 3, 
+      title: 'Portfolio 2023', 
+      category: 'Frontend', 
+      description: 'Portfolio page made using React and Tailwind CSS', 
+      image: portfolio2023Pic,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/frontend/portfolio2023',
     },
   ];
 
@@ -134,7 +136,7 @@ export default function App() {
       <section id="skills" className="min-h-screen px-8 py-12 pt-20 pb-20 mt-20">
         <h1 className="text-4xl font-extrabold text-center text-white mb-8">Skill Stack</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-12">
-          {/* Example Icon Container */}
+          
           <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
@@ -142,8 +144,7 @@ export default function App() {
               className="w-3/4 h-3/4 object-contain"
             />
           </div>
-          {/* Repeat the above structure for each icon */}
-          
+
           {/* React */}
           <div className="w-32 h-32 mx-auto rounded-full bg-transparent transition-transform duration-300 transform hover:scale-110 hover:bg-white/20 flex items-center justify-center">
             <img
