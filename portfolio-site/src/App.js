@@ -41,7 +41,7 @@ export default function App() {
       category: 'Frontend', 
       description: 'Portfolio page made using React and Tailwind CSS', 
       image: portfoliopagePic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/workfolio',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-site',
     },
     { id: 3, 
       title: 'Portfolio 2023', 
@@ -63,11 +63,11 @@ export default function App() {
       category: 'Application Development', 
       description: 'Application for tracking watering and fertilizing of house plants - Coming Soon', 
       image: plantpalPic,
-      link: 'https://github.com/fannyrenko/plantpal',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/plant-pal-app',
     },
     { id: 6, 
       title: 'Snake Game', 
-      category: 'Reinforced learning', 
+      category: 'AI', 
       description: 'Snake Game', 
       image: snakegamePic,
       link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/python/RL-snake-game' 
@@ -79,6 +79,14 @@ export default function App() {
       description: 'Wordpress Website for ErgoBrass Oy', 
       image: ergobrassPic,
       link: 'https://www.ergobrass.com/' 
+    
+    },
+    { id: 8, 
+      title: 'NLP-processor', 
+      category: 'AI', 
+      description: 'Text classifier build using deep learning algoritms and metods', 
+      image: ergobrassPic,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/DA-AI/NLP-project' 
     
     },
   ];
@@ -299,7 +307,7 @@ export default function App() {
           <button onClick={() => handleCategoryClick('Frontend')} className="bg-[#fc7445] text-white px-4 py-2 rounded-lg m-2 hover:bg-[#fc734589]">Frontend</button>
           <button onClick={() => handleCategoryClick('Application Development')} className="bg-[#8d40c8] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#9d5dce65]">Application Development</button>
           <button onClick={() => handleCategoryClick('UX Design')} className="bg-[#e64e9c] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e64e9d8e]">UX Design</button>
-          <button onClick={() => handleCategoryClick('Reinforced learning')} className="bg-[#e5961b] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e5981b9e]">Reinforced learning</button>
+          <button onClick={() => handleCategoryClick('AI')} className="bg-[#e5961b] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#e5981b9e]">AI</button>
           <button onClick={() => handleCategoryClick('')} className="bg-[#25257e] text-white px-4 py-2 rounded-lg mx-2 hover:bg-[#3131e485]">All</button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
