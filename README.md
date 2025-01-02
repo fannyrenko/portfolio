@@ -3,7 +3,6 @@
 Welcome to my GitHub Portfolio!
 
 Explore my work, skills, and projects in various domains like Natural Language Processing, Reinforcement Learning, Full-Stack Development, and more.
-Feel free to visit my GitHub Pages Portfolio Website for a more detailed showcase.
 
 ## 📂 Projects
 
