@@ -2,7 +2,7 @@
 
 ## 2023
 
-##Project Description
+## Project Description
 
 The game's graphics and user interface were implemented using the Pygame library, and a font was set to display the game's score visibly. Two classes were defined: a Direction enumeration class to specify the possible movement directions of the snake, and a Point namedtuple that stores x and y coordinates as a single entity. The project also involves defining the colors displayed in the user interface using RGB codes, adjusting the snake's speed, and setting the size of the blocks that make up the snake and its environment.
 
@@ -13,8 +13,13 @@ The game uses experience replay memory to store states, actions, rewards, and su
 The primary reference for this project was a tutorial by Patrick Loeber, which covered many aspects of reinforcement learning. 
 <a href='https://github.com/patrickloeber/snake-ai-pytorch'>Patrcik Kloeber Source Code</a>
 
-### Snake game in action
-[![snake game screen recording](./snake-game.png)](https://www.youtube.com/watch?v=n-RIIqYE594)
+### Snake game demo
+
+Click the image below to watch the snake game in action:
+
+<a href="https://www.youtube.com/watch?v=n-RIIqYE594" title="Snake Game">
+  <img src="./snake-game.png" alt="Snake game screen recording" width="400">
+</a>
 
 ### Snake game graph
 

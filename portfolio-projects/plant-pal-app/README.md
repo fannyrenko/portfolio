@@ -16,11 +16,11 @@ The **PlantPal App** is a web application designed for plant enthusiasts to mana
 ## Project Status
 This project is currently under development, with ongoing enhancements and feature additions. Feedback and contributions are welcome!
 
-## Screenshots
-<img src='./images/plantpal-1.PNG' width=600> 
 
-## Video
+## PlantPal App Demo
 
-<video src="plantpal-video.mp4" width="800" controls>
-Your browser does not support the video tag.
-</video>
+Click the image below to watch the demo video:
+
+<a href="https://youtu.be/x0x3xaaPQ5Y">
+  <img src="./images/plantpal-1.PNG" alt="PlantPal App Demo" width="500">
+</a>

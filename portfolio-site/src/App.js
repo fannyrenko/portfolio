@@ -81,7 +81,7 @@ export default function App() {
       description: 'Text classifier build using deep learning algoritms and metods', 
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
     ,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/DA-AI/NLP-project' 
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/NLP-project' 
     
     },
     { id: 3, 
@@ -89,7 +89,7 @@ export default function App() {
       category: 'Frontend', 
       description: 'Portfolio page made using React and Tailwind CSS', 
       image: portfolio2023Pic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/frontend/portfolio2023',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/portfolio-2023',
     },
   ];
 
