@@ -47,6 +47,12 @@ A collection of 29 smaller C# projects showcasing my proficiency in OOP principl
 
 - [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/object-oriented-programming-exercises)
 
+**5. Skill Collector UI**
+
+UI Design for the Skill Collector web app, where users select the most important, valuable, and relevant skills from the SFIA-8 framework in the IT industry. 
+
+- [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/skill-collector-ui-design) | [Live Demo](https://youtu.be/4EdeHpmujk0)
+
 
 ## 💡 Skills & Expertise
 
