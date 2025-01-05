@@ -21,6 +21,6 @@ This project is currently under development, with ongoing enhancements and featu
 
 Click the image below to watch the demo video:
 
-<a href="https://youtu.be/x0x3xaaPQ5Y">
+<a href="https://youtu.be/x0x3xaaPQ5Y" target="_blank">
   <img src="./images/plantpal-1.PNG" alt="PlantPal App Demo" width="500">
 </a>

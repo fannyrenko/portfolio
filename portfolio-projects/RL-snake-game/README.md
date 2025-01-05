@@ -17,7 +17,7 @@ The primary reference for this project was a tutorial by Patrick Loeber, which c
 
 Click the image below to watch the snake game in action:
 
-<a href="https://www.youtube.com/watch?v=n-RIIqYE594" title="Snake Game">
+<a href="https://www.youtube.com/watch?v=n-RIIqYE594" title="Snake Game" target="_blank">
   <img src="./snake-game.png" alt="Snake game screen recording" width="400">
 </a>
 
