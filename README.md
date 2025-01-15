@@ -1,4 +1,4 @@
-# 🎨 Portfolio - 2024
+# 🎨 Portfolio - 2025
 
 Welcome to my GitHub Portfolio!
 
@@ -56,7 +56,7 @@ UI Design for the Skill Collector web app, where users select the most important
 
 ## 💡 Skills & Expertise
 
-  - **Programming Languages:** Python, C#/C++, JavaScript, Kotlin, Elixir
+  - **Programming Languages:** Python, C#/C++, JavaScript, Kotlin, Elixir, TypeScript
   - **Web Development:** HTML/CSS, JavaScript, React, Vite, Node.js, Tailwind CSS
 
   - **Databases:** MySQL, MongoDB
