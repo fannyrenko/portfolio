@@ -1,0 +1,20 @@
+# F#-projekti
+bin/
+obj/
+
+# Visual Studio -projekti ja käyttäjäasetukset
+.vs/
+.vscode/
+.idea/
+
+# Paketointityökalut
+packages/
+.nuget/
+
+# Kompilointitulokset
+*.dll
+*.exe
+*.pdb
+*.bak
+*.user
+*.suo
