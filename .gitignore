@@ -7,6 +7,7 @@ __pycache__/
 venv/
 env/
 
+
 # Logs and temporary files
 *.log
 *.tmp
@@ -31,3 +32,5 @@ groq_logs/
 
 # Other files that may be generated during execution
 matched_skills_*.md
+
+.env
