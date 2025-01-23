@@ -7,6 +7,7 @@ import arkadicsPic from './img/arkadics.png'
 import ergobrassPic from './img/ergobrass.png'
 import portfolio2023Pic from './img/portfolio2023.png'
 import plantpalPic from './img/plantpal.png'
+import resumeHelperPic from './img/resumehelper.png'
 import './App.css';
 
 export default function App() {
@@ -34,16 +35,24 @@ export default function App() {
       category: 'UX Design', 
       description: 'UX Design for a Skill Collector App', 
       image: skillcollectorPic , 
-      link: 'https://portfolio-fannyrenko-82531f7557548b8f7029c978980a4faa1466e7e617.gitlab.io/dist/skill_collector.html' 
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/skill-collector-ui-design' 
     },
     { id: 2, 
       title: 'Portfolio 2024', 
       category: 'Frontend', 
       description: 'Portfolio page made using React and Tailwind CSS', 
       image: portfoliopagePic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-site',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-site-2024',
     },
- 
+    { id: 3, 
+      title: 'NLP-processor', 
+      category: 'AI', 
+      description: 'Text classifier build using deep learning algoritms and metods', 
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+    ,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/NLP-project' 
+    
+    },
     { id: 4, 
       title: 'Arkadics Website', 
       category: 'Frontend', 
@@ -57,14 +66,14 @@ export default function App() {
       category: 'Application Development', 
       description: 'Application for tracking watering and fertilizing of house plants - Coming Soon', 
       image: plantpalPic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/plant-pal-app',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/plant-pal-app',
     },
     { id: 6, 
       title: 'Snake Game', 
       category: 'AI', 
       description: 'Snake Game', 
       image: snakegamePic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/RL-snake-game' 
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/RL-snake-game' 
     
     },
     { id: 7, 
@@ -76,20 +85,25 @@ export default function App() {
     
     },
     { id: 8, 
-      title: 'NLP-processor', 
-      category: 'AI', 
-      description: 'Text classifier build using deep learning algoritms and metods', 
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
-    ,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/NLP-project' 
-    
-    },
-    { id: 3, 
       title: 'Portfolio 2023', 
       category: 'Frontend', 
       description: 'Portfolio page made using React and Tailwind CSS', 
       image: portfolio2023Pic,
-      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/portfolio-2023',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/portfolio-site-2023',
+    },
+    { id: 9, 
+      title: 'Resume Helper', 
+      category: 'AI', 
+      description: 'Automates job description extraction from HTML resumes, matches relevant skills, and generates tailored job applications using Groq AI.', 
+      image: resumeHelperPic,
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/resume-helper',
+    },
+    { id: 10, 
+      title: 'Fake News Classifier', 
+      category: 'AI', 
+      description: 'Classifies news articles as real or fake using a LinearSVC classifier.', 
+      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg',
+      link: 'https://github.com/fannyrenko/portfolio/tree/main/fake-news-detection',
     },
   ];
 
