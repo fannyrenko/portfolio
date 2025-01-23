@@ -11,7 +11,7 @@ Explore my work, skills, and projects in various domains like Natural Language P
 A full-stack web application designed for plant lovers to manage and care for their plants efficiently.
 
   - **Tech Stack:** React, Node.js, MongoDB
-  - [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/plant-pal-app) | [Live Demo](https://youtu.be/x0x3xaaPQ5Y)
+  - [View Project Repository](./plant-pal-app/) | [Live Demo](https://youtu.be/x0x3xaaPQ5Y)
 
 **2. NLP Project**
 
@@ -27,7 +27,7 @@ A deep learning project focused on text classification tasks, such as categorizi
 
   - Achieved 91% accuracy with improved performance on structured texts.
 
-- [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/NLP-project)
+- [View Project Repository](./NLP-project/)
 
 **3. RL Snake Game**
 
@@ -39,19 +39,36 @@ A reinforcement learning-based snake game where the AI learns to play through se
   - Implements game mechanics, collision detection, and score display.
   - Uses experience replay for training AI to learn optimal actions.
 
-- [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/RL-snake-game) | [Live Demo](https://youtu.be/n-RIIqYE594)
+- [View Project Repository](./RL-snake-game/) | [Live Demo](https://youtu.be/n-RIIqYE594)
 
 **4. Object-Oriented Programming (OOP) with C#**
 
 A collection of 29 smaller C# projects showcasing my proficiency in OOP principles and practices.
 
-- [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/object-oriented-programming-exercises)
+- [View Project Repository](/object-oriented-programming-exercises/)
 
 **5. Skill Collector UI**
 
 UI Design for the Skill Collector web app, where users select the most important, valuable, and relevant skills from the SFIA-8 framework in the IT industry. 
 
-- [View Project Repository](https://github.com/fannyrenko/portfolio/tree/main/portfolio-projects/skill-collector-ui-design) | [Live Demo](https://youtu.be/4EdeHpmujk0)
+- [View Project Repository](/skill-collector-ui-design/) | [Live Demo](https://youtu.be/4EdeHpmujk0)
+
+
+**6. Resume Helper**
+
+Automates the extraction of job descriptions from HTML resumes, matches relevant skills from a predefined resume, and generates tailored job applications using Groq AI. Outputs results in markdown format for easy application submission.
+
+- [View Project Repository](/resume-helper/) | [Live Demo](https://youtu.be/QibY7xPs_K0)
+
+
+**7. Fake News Classification with LinearSVC**
+
+Built a model to classify news articles as real or fake using a LinearSVC classifier, achieving 99% accuracy and high performance in distinguishing fake from real news based on text content.
+
+  - **Tech Stack:** Python, Scikit-learn, TfidfVectorizer, LinearSVC
+
+- [View Project Repository](/fake-news-detection/)
+
 
 
 ## 💡 Skills & Expertise

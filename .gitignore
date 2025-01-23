@@ -1,36 +1,101 @@
-# Python bytecode files
-*.pyc
-*.pyo
-__pycache__/
+# ------------------------------
+# General Files to Ignore
+# ------------------------------
+*.log                  # Log files
+*.tmp                  # Temporary files
+*.bak                  # Backup files
+*.pdb                  # Debugging files
+*.user                 # User-specific files
+*.suo                  # Visual Studio user options
+*.htm                  # HTML files (if not needed)
+*.dll                  # Compiled .NET DLLs
+*.exe                  # Executable files
+*.pyc                  # Python bytecode files
+*.pyo                  # Python optimized files
 
+# ------------------------------
+# Project-specific Folders
+# ------------------------------
+/node_modules          # Node.js dependencies
+/coverage              # Test coverage results
+/build                 # Production build output
+/src/corePluginList.js # Generated files in source
+
+# ------------------------------
+# Python-specific
+# ------------------------------
 # Virtual environment directories
-venv/
+venv/                  # Python virtual environment
 env/
 
-
-# Logs and temporary files
-*.log
-*.tmp
-*.bak
-
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+.ipynb_checkpoints/    # Jupyter notebook autosave files
 
-# IDE specific files (e.g., VS Code, PyCharm)
-.vscode/
-.idea/
+# Python bytecode & Cache
+__pycache__/           # Python cache directory
 
-# Groq-related files (if any)
-groq_output/
-groq_logs/
+# ------------------------------
+# C# / .NET specific
+# ------------------------------
+# Build results
+bin/                   # Binary output files
+obj/                   # Object files
 
-# Markdown output files
-*.md
+# Paketting tools
+packages/              # Package dependencies
+.nuget/                # NuGet package manager
 
-# HTML files (if you don't want them to be tracked)
-*.htm
+# Visual Studio files
+.vs/                   # Visual Studio workspace and user settings
+.vscode/               # Visual Studio Code settings and workspace
+.idea/                 # JetBrains IDE files
 
-# Other files that may be generated during execution
-matched_skills_*.md
+# ------------------------------
+# F# specific
+# ------------------------------
+# Build results
+bin/                   # Binary output files
+obj/                   # Object files
 
-.env
+# ------------------------------
+# JavaScript / React specific
+# ------------------------------
+# Node.js and package manager files
+node_modules/          # Node.js dependencies
+.pnp                   # Yarn Plug'n'Play files
+.pnp.js                # Yarn Plug'n'Play files
+
+# Testing and development tools
+/coverage/             # Coverage output
+/turbo/                # Turbo files
+
+# Miscellaneous
+.DS_Store              # macOS Finder metadata
+.env                   # Environment variables file
+.env.local             # Local environment variables
+.env.development.local # Local development environment variables
+.env.test.local        # Local test environment variables
+.env.production.local  # Local production environment variables
+
+# Debug logs
+npm-debug.log*         # npm debug logs
+yarn-debug.log*        # Yarn debug logs
+yarn-error.log*        # Yarn error logs
+
+# Tailwind and other config files
+tailwind.config.js     # Tailwind CSS configuration
+
+# ------------------------------
+# Miscellaneous Files
+# ------------------------------
+groq_output/           # Groq-related output files (if applicable)
+groq_logs/             # Groq-related logs
+matched_skills_*.md    # Matched skills markdown files (if any)
+
+# ------------------------------
+# Testing and Coverage Folders
+# ------------------------------
+/tests/                # Test files and results
+/tests/evaluate-tailwind-functions.test.html # Generated test HTML
+.parcel-cache/         # Parcel cache files
+
